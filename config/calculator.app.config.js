@@ -14,6 +14,13 @@ exports.config = {
         './features/calculator.feature',
     ],
 
+    reporters: ['allure','spec'],
+    reporterOptions: {
+        allure: {
+            outputDir: './allure-results/'
+        }
+    },
+
     host: host,
     port: port,
 
@@ -24,13 +31,12 @@ exports.config = {
             appiumVersion: '1.16.0',                 // Appium module version
             browserName: '',                        // browser name is empty for native apps
             platformName: 'Android',
-            //app: './app/LGCalculator.apk',          // Path to your native app
+            //app: './app/Calculator.apk',          // Path to your native app
             appPackage: 'com.android.calculator2',  // Package name of your app
             appActivity: 'com.android.calculator2.Calculator', // App activity of the app
             adbExecTimeout:20000,
-            platformVersion: '7.1.1',
-            deviceName: 'and7',         // Android platform version of the device
-                 // device name of the mobile device
+            platformVersion: '7.1.1',// Android platform version of the device
+            deviceName: 'and7',         // device name of the mobile device
             waitforTimeout: 20000,
             commandTimeout: 20000,
             newCommandTimeout: 30 * 60000,
