@@ -8,6 +8,7 @@
     "clean-build": "npm run clean && npm run build",
     "appium": "appium",
     "app-test": "wdio ./config/calculator.app.config.js",
+    "apptest": "wdio ./config/worldApp.app.config.js",
     "pretest": "npm run clean-build",
     "browser-test": "wdio ./config/chrome.browser.config.js"
   },
