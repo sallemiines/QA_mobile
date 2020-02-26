@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1582554731995' stop='1582554736831'>
+    <name>To search appium in google &amp; verify appium webpage Navigate to appium's official website</name>
+    <title>To search appium in google &amp; verify appium webpage Navigate to appium's official website</title>
+    <test-cases>
+        <test-case start='1582554731995' status='passed' stop='1582554736548'>
+            <name>I click on first search link</name>
+            <title>I click on first search link</title>
+            <labels>
+                <label name='feature' value='To search appium in google &amp; verify appium webpage'/>
+                <label name='story' value='Navigate to appium&apos;s official website'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='chrome-7.1.1'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"appiumVersion":"1.16.0","browserName":"chrome","platformName":"Android","platformVersion":"7.1.1","deviceName":"and7","adbExecTimeout":20000,"waitforTimeout":30000,"commandTimeout":30000,"newCommandTimeout":1800000,"noReset":true,"language":"fr","locale":"FR"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/projet/QA_mobile/features/browser.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1582554736548' status='passed' stop='1582554736706'>
+            <name>I should be navigated to appium's official site "http://appium.io/"</name>
+            <title>I should be navigated to appium's official site "http://appium.io/"</title>
+            <labels>
+                <label name='feature' value='To search appium in google &amp; verify appium webpage'/>
+                <label name='story' value='Navigate to appium&apos;s official website'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='chrome-7.1.1'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"appiumVersion":"1.16.0","browserName":"chrome","platformName":"Android","platformVersion":"7.1.1","deviceName":"and7","adbExecTimeout":20000,"waitforTimeout":30000,"commandTimeout":30000,"newCommandTimeout":1800000,"noReset":true,"language":"fr","locale":"FR"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/projet/QA_mobile/features/browser.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1582554736706' status='passed' stop='1582554736829'>
+            <name>I verify the title of the page to be "Appium: Mobile App Automation Made Awesome."</name>
+            <title>I verify the title of the page to be "Appium: Mobile App Automation Made Awesome."</title>
+            <labels>
+                <label name='feature' value='To search appium in google &amp; verify appium webpage'/>
+                <label name='story' value='Navigate to appium&apos;s official website'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='chrome-7.1.1'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"appiumVersion":"1.16.0","browserName":"chrome","platformName":"Android","platformVersion":"7.1.1","deviceName":"and7","adbExecTimeout":20000,"waitforTimeout":30000,"commandTimeout":30000,"newCommandTimeout":1800000,"noReset":true,"language":"fr","locale":"FR"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/projet/QA_mobile/features/browser.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
