@@ -1,0 +1,393 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "To test the add & subtract feature of mobile calculator app Add two numbers",
+    "children" : [ {
+      "name" : "I am on my mobile calculator app",
+      "uid" : "c10456795eeac2eb",
+      "parentUid" : "33a3eecc80582f7cde90e8645db46cb1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582907315237,
+        "stop" : 1582907315382,
+        "duration" : 145
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "holala-5.1" ]
+    }, {
+      "name" : "the result \"8\" should be displayed",
+      "uid" : "708e0b468796d41a",
+      "parentUid" : "33a3eecc80582f7cde90e8645db46cb1",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1582907315383,
+        "stop" : 1582907315383,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "holala-5.1" ]
+    }, {
+      "name" : "I add \"3\" and \"5\"",
+      "uid" : "2623f3e386c4fe1e",
+      "parentUid" : "33a3eecc80582f7cde90e8645db46cb1",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1582907315383,
+        "stop" : 1582907315383,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "holala-5.1" ]
+    }, {
+      "name" : "I am on my mobile calculator app",
+      "uid" : "a0caf9ae30393b40",
+      "parentUid" : "33a3eecc80582f7cde90e8645db46cb1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583248664387,
+        "stop" : 1583248664458,
+        "duration" : 71
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "and7-7.1.1" ]
+    }, {
+      "name" : "I add \"3\" and \"5\"",
+      "uid" : "235d0e477223ab41",
+      "parentUid" : "33a3eecc80582f7cde90e8645db46cb1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583248664458,
+        "stop" : 1583248667936,
+        "duration" : 3478
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "and7-7.1.1" ]
+    }, {
+      "name" : "the result \"8\" should be displayed",
+      "uid" : "bb5140c74b0384ee",
+      "parentUid" : "33a3eecc80582f7cde90e8645db46cb1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583248667936,
+        "stop" : 1583248668034,
+        "duration" : 98
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "and7-7.1.1" ]
+    } ],
+    "uid" : "33a3eecc80582f7cde90e8645db46cb1"
+  }, {
+    "name" : "To test the add & subtract feature of mobile calculator app Subtract two numbers",
+    "children" : [ {
+      "name" : "I subtract \"7\" from \"5\"",
+      "uid" : "d2bcec75e140910a",
+      "parentUid" : "313d7e47d363039102bf14e637505880",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582907315394,
+        "stop" : 1582907321180,
+        "duration" : 5786
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "holala-5.1" ]
+    }, {
+      "name" : "the result \"2\" should be displayed",
+      "uid" : "94e5e82f86f98bd5",
+      "parentUid" : "313d7e47d363039102bf14e637505880",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582907321180,
+        "stop" : 1582907321218,
+        "duration" : 38
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "holala-5.1" ]
+    }, {
+      "name" : "I subtract \"7\" from \"5\"",
+      "uid" : "1257f94525c8cecd",
+      "parentUid" : "313d7e47d363039102bf14e637505880",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583248668056,
+        "stop" : 1583248671688,
+        "duration" : 3632
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "and7-7.1.1" ]
+    }, {
+      "name" : "the result \"2\" should be displayed",
+      "uid" : "d7d71cd96fb41997",
+      "parentUid" : "313d7e47d363039102bf14e637505880",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583248671688,
+        "stop" : 1583248671771,
+        "duration" : 83
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "and7-7.1.1" ]
+    } ],
+    "uid" : "313d7e47d363039102bf14e637505880"
+  }, {
+    "name" : "To test the add & subtract feature of mobile calculator app Multiply two numbers",
+    "children" : [ {
+      "name" : "I multiply \"3\" with \"5\"",
+      "uid" : "f6202088e6b3f51e",
+      "parentUid" : "bb7208cf043e96cb2d5f59e540a5c780",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582907321229,
+        "stop" : 1582907325569,
+        "duration" : 4340
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "holala-5.1" ]
+    }, {
+      "name" : "the result \"15\" should be displayed",
+      "uid" : "39a8ad8b7b0c528e",
+      "parentUid" : "bb7208cf043e96cb2d5f59e540a5c780",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582907325569,
+        "stop" : 1582907326259,
+        "duration" : 690
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "holala-5.1" ]
+    }, {
+      "name" : "I multiply \"3\" with \"5\"",
+      "uid" : "374ebaa91e53bab3",
+      "parentUid" : "bb7208cf043e96cb2d5f59e540a5c780",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583248671782,
+        "stop" : 1583248675489,
+        "duration" : 3707
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "and7-7.1.1" ]
+    }, {
+      "name" : "the result \"15\" should be displayed",
+      "uid" : "21439b70432bc326",
+      "parentUid" : "bb7208cf043e96cb2d5f59e540a5c780",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583248675489,
+        "stop" : 1583248675571,
+        "duration" : 82
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "and7-7.1.1" ]
+    } ],
+    "uid" : "bb7208cf043e96cb2d5f59e540a5c780"
+  }, {
+    "name" : "To test the add & subtract feature of mobile calculator app Divide two numbers",
+    "children" : [ {
+      "name" : "I divide \"9\" with \"3\"",
+      "uid" : "17d0464caef4e3c4",
+      "parentUid" : "df43b1078b1a149fac8483ed0600a302",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582907326275,
+        "stop" : 1582907331384,
+        "duration" : 5109
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "holala-5.1" ]
+    }, {
+      "name" : "the result \"3\" should be displayed",
+      "uid" : "6ddeb0a24c15699a",
+      "parentUid" : "df43b1078b1a149fac8483ed0600a302",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582907331384,
+        "stop" : 1582907331422,
+        "duration" : 38
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "holala-5.1" ]
+    }, {
+      "name" : "I divide \"9\" with \"3\"",
+      "uid" : "fb168ac4c4b97d6",
+      "parentUid" : "df43b1078b1a149fac8483ed0600a302",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583248675585,
+        "stop" : 1583248679270,
+        "duration" : 3685
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "and7-7.1.1" ]
+    }, {
+      "name" : "the result \"3\" should be displayed",
+      "uid" : "6208b0b40f08b548",
+      "parentUid" : "df43b1078b1a149fac8483ed0600a302",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583248679270,
+        "stop" : 1583248679331,
+        "duration" : 61
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "and7-7.1.1" ]
+    } ],
+    "uid" : "df43b1078b1a149fac8483ed0600a302"
+  }, {
+    "name" : "To test the add & subtract feature of mobile calculator app Clear the text",
+    "children" : [ {
+      "name" : "I add \"8\" and \"7\"",
+      "uid" : "cc5cbdc9a908ed55",
+      "parentUid" : "4bc186ed721d9bf5210177989a93fe4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582907331430,
+        "stop" : 1582907335574,
+        "duration" : 4144
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "holala-5.1" ]
+    }, {
+      "name" : "I click on AC button",
+      "uid" : "7f0e25dd78f5acc7",
+      "parentUid" : "4bc186ed721d9bf5210177989a93fe4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582907335575,
+        "stop" : 1582907337801,
+        "duration" : 2226
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "holala-5.1" ]
+    }, {
+      "name" : "the result should be cleared",
+      "uid" : "1d43827fcf9fa84f",
+      "parentUid" : "4bc186ed721d9bf5210177989a93fe4a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582907337801,
+        "stop" : 1582907338177,
+        "duration" : 376
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "holala-5.1" ]
+    }, {
+      "name" : "I add \"8\" and \"7\"",
+      "uid" : "28c56ae43f7e0bed",
+      "parentUid" : "4bc186ed721d9bf5210177989a93fe4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583248679340,
+        "stop" : 1583248683161,
+        "duration" : 3821
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "and7-7.1.1" ]
+    }, {
+      "name" : "I click on AC button",
+      "uid" : "d4773c67e5367dea",
+      "parentUid" : "4bc186ed721d9bf5210177989a93fe4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583248683161,
+        "stop" : 1583248684523,
+        "duration" : 1362
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "and7-7.1.1" ]
+    }, {
+      "name" : "the result should be cleared",
+      "uid" : "68d756fb820bc751",
+      "parentUid" : "4bc186ed721d9bf5210177989a93fe4a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1583248684523,
+        "stop" : 1583248684641,
+        "duration" : 118
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "and7-7.1.1" ]
+    } ],
+    "uid" : "4bc186ed721d9bf5210177989a93fe4a"
+  }, {
+    "name" : "To test the Electre application Electre application",
+    "children" : [ {
+      "name" : "I am on my app",
+      "uid" : "89eb33f9a176a93f",
+      "parentUid" : "ea028058cbc30541d94a8c09469ef9a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582907735120,
+        "stop" : 1582907740917,
+        "duration" : 5797
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "myemulator-5.1" ]
+    }, {
+      "name" : "I click on menu button",
+      "uid" : "c6992171f9777415",
+      "parentUid" : "ea028058cbc30541d94a8c09469ef9a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582907740917,
+        "stop" : 1582907743012,
+        "duration" : 2095
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "myemulator-5.1" ]
+    }, {
+      "name" : "I click on Ma selection button",
+      "uid" : "744981cbb7235daa",
+      "parentUid" : "ea028058cbc30541d94a8c09469ef9a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582907743012,
+        "stop" : 1582907756406,
+        "duration" : 13394
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "myemulator-5.1" ]
+    }, {
+      "name" : "the result \"LIVRES PRÈS DE VOUS\" should be displayed",
+      "uid" : "2ab80fb109be4836",
+      "parentUid" : "ea028058cbc30541d94a8c09469ef9a2",
+      "status" : "failed",
+      "time" : {
+        "start" : 1582907756406,
+        "stop" : 1582907757782,
+        "duration" : 1376
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "myemulator-5.1" ]
+    } ],
+    "uid" : "ea028058cbc30541d94a8c09469ef9a2"
+  } ],
+  "name" : "packages"
+}

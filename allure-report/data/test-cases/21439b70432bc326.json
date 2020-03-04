@@ -1,0 +1,143 @@
+{
+  "uid" : "21439b70432bc326",
+  "name" : "the result \"15\" should be displayed",
+  "fullName" : "To test the add & subtract feature of mobile calculator app Multiply two numbers.the result \"15\" should be displayed",
+  "historyId" : "a2d8ad9c7cb5eb85a0f364a6929f14ae",
+  "time" : {
+    "start" : 1583248675489,
+    "stop" : 1583248675571,
+    "duration" : 82
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/e266851d-8c18-4c4a-99a1-cd4dc010e09e/elements",
+      "time" : {
+        "start" : 1583248675492,
+        "stop" : 1583248675532,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e8fbd26244af6984",
+        "name" : "Request",
+        "source" : "e8fbd26244af6984.json",
+        "type" : "application/json",
+        "size" : 111
+      }, {
+        "uid" : "cbc70834e4753608",
+        "name" : "Response",
+        "source" : "cbc70834e4753608.json",
+        "type" : "application/json",
+        "size" : 445
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/e266851d-8c18-4c4a-99a1-cd4dc010e09e/element/cdf3d03b-df13-4301-93c8-e7d0274e4e78/text",
+      "time" : {
+        "start" : 1583248675533,
+        "stop" : 1583248675570,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "GET /wd/hub/session/e266851d-8c18-4c4a-99a1-cd4dc010e09e/element/1e8dfd2f-df5e-4e77-b793-3a915d681d36/text",
+        "time" : {
+          "start" : 1583248675533,
+          "stop" : 1583248675555,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "5b4e7ad18b56b1b8",
+          "name" : "Response",
+          "source" : "5b4e7ad18b56b1b8.json",
+          "type" : "application/json",
+          "size" : 96
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "fbcd633e4b5a1c1b",
+        "name" : "Response",
+        "source" : "fbcd633e4b5a1c1b.json",
+        "type" : "application/json",
+        "size" : 95
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "To test the add & subtract feature of mobile calculator app"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Multiply two numbers"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the add & subtract feature of mobile calculator app Multiply two numbers"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the add & subtract feature of mobile calculator app Multiply two numbers"
+  }, {
+    "name" : "testMethod",
+    "value" : "the result \"15\" should be displayed"
+  }, {
+    "name" : "package",
+    "value" : "To test the add & subtract feature of mobile calculator app Multiply two numbers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "and7-7.1.1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "21439b70432bc326.json",
+  "parameterValues" : [ "and7-7.1.1" ]
+}

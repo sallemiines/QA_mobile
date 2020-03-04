@@ -1,0 +1,103 @@
+{
+  "uid" : "73e4bc482d041665",
+  "name" : "the result \"15\" should be displayed",
+  "fullName" : "To test the add & subtract feature of mobile calculator app Multiply two numbers.the result \"15\" should be displayed",
+  "historyId" : "5d0692ffa4f2e7d01136ecdde2ff42e4",
+  "time" : {
+    "start" : 1582907111711,
+    "stop" : 1582907112428,
+    "duration" : 717
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"android=new UiSelector().className(\"android.widget.TextView\")\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"android=new UiSelector().className(\"android.widget.TextView\")\").\n                    at getText(\"android=new UiSelector().className(\"android.widget.TextView\")\") - at elements(\"android=new UiSelector().className(\"android.widget.TextView\")\") - getText.js:18:17",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"android=new UiSelector().className(\"android.widget.TextView\")\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"android=new UiSelector().className(\"android.widget.TextView\")\").\n                    at getText(\"android=new UiSelector().className(\"android.widget.TextView\")\") - at elements(\"android=new UiSelector().className(\"android.widget.TextView\")\") - getText.js:18:17",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/9fb6d925-7f4b-4d1e-8541-7c408bb853ff/elements",
+      "time" : {
+        "start" : 1582907111713,
+        "stop" : 1582907112426,
+        "duration" : 713
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "53485c7f7b774e30",
+        "name" : "Request",
+        "source" : "53485c7f7b774e30.json",
+        "type" : "application/json",
+        "size" : 111
+      }, {
+        "uid" : "a3a4cf37dba72a2c",
+        "name" : "Response",
+        "source" : "a3a4cf37dba72a2c.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "To test the add & subtract feature of mobile calculator app"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Multiply two numbers"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the add & subtract feature of mobile calculator app Multiply two numbers"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the add & subtract feature of mobile calculator app Multiply two numbers"
+  }, {
+    "name" : "testMethod",
+    "value" : "the result \"15\" should be displayed"
+  }, {
+    "name" : "package",
+    "value" : "To test the add & subtract feature of mobile calculator app Multiply two numbers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "holala-5.1"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "73e4bc482d041665.json",
+  "parameterValues" : [ "holala-5.1" ]
+}

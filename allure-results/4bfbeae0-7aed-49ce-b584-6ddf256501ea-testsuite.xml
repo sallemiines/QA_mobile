@@ -1,0 +1,203 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583312588242' stop='1583312608412'>
+    <name>To test the Electre application Electre application</name>
+    <title>To test the Electre application Electre application</title>
+    <test-cases>
+        <test-case start='1583312588247' status='passed' stop='1583312593158'>
+            <name>I am on my app</name>
+            <title>I am on my app</title>
+            <labels>
+                <label name='feature' value='To test the Electre application'/>
+                <label name='story' value='Electre application'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='holala-5.1'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"appiumVersion":"1.16.0","browserName":"","platformName":"Android","app":"/apk/elect.apk","appPackage":"com.immanens.electrelh","appActivity":"com.immanens.electrelh.ui.activities.SplashScreenActivity","adbExecTimeout":20000,"platformVersion":"5.1","deviceName":"holala","waitforTimeout":20000,"commandTimeout":20000,"newCommandTimeout":1800000,"appWaitDuration":20000,"automationName":"UiAutomator2","clearSystemFiles":true}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/projet/QA_mobile/features/livre.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1583312590262' status='passed' stop='1583312592336'>
+                    <name>POST /wd/hub/session/c373a0bc-c9fa-406d-b06d-44757536d38b/elements</name>
+                    <title>POST /wd/hub/session/c373a0bc-c9fa-406d-b06d-44757536d38b/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='9de957f6-9d13-49e2-8a85-7ed47f9bfccb-attachment.json' type='application/json' size='69'/>
+                        <attachment title='Response' source='dd128a3b-295c-448b-aa8d-6a7c6d67d2e1-attachment.json' type='application/json' size='1141'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1583312592342' status='passed' stop='1583312593152'>
+                    <name>GET /wd/hub/session/c373a0bc-c9fa-406d-b06d-44757536d38b/element/db6035a3-7c7c-41e3-aadc-902a8df174d5/text</name>
+                    <title>GET /wd/hub/session/c373a0bc-c9fa-406d-b06d-44757536d38b/element/db6035a3-7c7c-41e3-aadc-902a8df174d5/text</title>
+                    <attachments>
+                        <attachment title='Response' source='6e04935c-d0ab-4bb2-be9a-9bdb96928b83-attachment.json' type='application/json' size='155'/>
+                    </attachments>
+                    <steps>
+                        <step start='1583312592343' status='passed' stop='1583312593041'>
+                            <name>GET /wd/hub/session/c373a0bc-c9fa-406d-b06d-44757536d38b/element/88337481-c0e7-4452-b006-d9abc595b6ff/text</name>
+                            <title>GET /wd/hub/session/c373a0bc-c9fa-406d-b06d-44757536d38b/element/88337481-c0e7-4452-b006-d9abc595b6ff/text</title>
+                            <attachments>
+                                <attachment title='Response' source='cda6a381-b72f-4acd-8241-ecd7045195c5-attachment.json' type='application/json' size='117'/>
+                            </attachments>
+                            <steps>
+                                <step start='1583312592344' status='passed' stop='1583312593013'>
+                                    <name>GET /wd/hub/session/c373a0bc-c9fa-406d-b06d-44757536d38b/element/9e8cb770-260b-4432-a9ba-97475ce7e9a4/text</name>
+                                    <title>GET /wd/hub/session/c373a0bc-c9fa-406d-b06d-44757536d38b/element/9e8cb770-260b-4432-a9ba-97475ce7e9a4/text</title>
+                                    <attachments>
+                                        <attachment title='Response' source='fbe86fb4-56c4-45bb-a3e3-46bd0a9c8110-attachment.json' type='application/json' size='123'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1583312592344' status='passed' stop='1583312592993'>
+                                            <name>GET /wd/hub/session/c373a0bc-c9fa-406d-b06d-44757536d38b/element/fa803758-7fa7-49a5-aa2a-46349d4afd54/text</name>
+                                            <title>GET /wd/hub/session/c373a0bc-c9fa-406d-b06d-44757536d38b/element/fa803758-7fa7-49a5-aa2a-46349d4afd54/text</title>
+                                            <attachments>
+                                                <attachment title='Response' source='1ed43a82-7a76-4299-aa7c-4485c21ad7cf-attachment.json' type='application/json' size='142'/>
+                                            </attachments>
+                                            <steps>
+                                                <step start='1583312592345' status='passed' stop='1583312592978'>
+                                                    <name>GET /wd/hub/session/c373a0bc-c9fa-406d-b06d-44757536d38b/element/ddca5b25-2652-44ee-b73d-34a886c9ba96/text</name>
+                                                    <title>GET /wd/hub/session/c373a0bc-c9fa-406d-b06d-44757536d38b/element/ddca5b25-2652-44ee-b73d-34a886c9ba96/text</title>
+                                                    <attachments>
+                                                        <attachment title='Response' source='48119d5b-6804-4877-bfc6-ee928654f51f-attachment.json' type='application/json' size='93'/>
+                                                    </attachments>
+                                                    <steps>
+                                                        <step start='1583312592346' status='passed' stop='1583312592963'>
+                                                            <name>GET /wd/hub/session/c373a0bc-c9fa-406d-b06d-44757536d38b/element/ba53e2cc-1436-4807-81c4-f3661852e970/text</name>
+                                                            <title>GET /wd/hub/session/c373a0bc-c9fa-406d-b06d-44757536d38b/element/ba53e2cc-1436-4807-81c4-f3661852e970/text</title>
+                                                            <attachments>
+                                                                <attachment title='Response' source='d6beebbf-c640-4bb8-ad24-3f4d0164b342-attachment.json' type='application/json' size='104'/>
+                                                            </attachments>
+                                                            <steps/>
+                                                        </step>
+                                                    </steps>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1583312593158' status='passed' stop='1583312595234'>
+            <name>I click on menu button</name>
+            <title>I click on menu button</title>
+            <labels>
+                <label name='feature' value='To test the Electre application'/>
+                <label name='story' value='Electre application'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='holala-5.1'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"appiumVersion":"1.16.0","browserName":"","platformName":"Android","app":"/apk/elect.apk","appPackage":"com.immanens.electrelh","appActivity":"com.immanens.electrelh.ui.activities.SplashScreenActivity","adbExecTimeout":20000,"platformVersion":"5.1","deviceName":"holala","waitforTimeout":20000,"commandTimeout":20000,"newCommandTimeout":1800000,"appWaitDuration":20000,"automationName":"UiAutomator2","clearSystemFiles":true}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/projet/QA_mobile/features/livre.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1583312595165' status='passed' stop='1583312595195'>
+                    <name>POST /wd/hub/session/c373a0bc-c9fa-406d-b06d-44757536d38b/element</name>
+                    <title>POST /wd/hub/session/c373a0bc-c9fa-406d-b06d-44757536d38b/element</title>
+                    <attachments>
+                        <attachment title='Request' source='13b3ac9e-79e2-4bf1-b125-0789018f2306-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='4e0e31ae-0e87-4b49-a188-3e30affff3e2-attachment.json' type='application/json' size='243'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1583312595196' status='passed' stop='1583312595234'>
+                    <name>POST /wd/hub/session/c373a0bc-c9fa-406d-b06d-44757536d38b/element/dc7536b7-a95e-4b51-925e-8d79f9143311/click</name>
+                    <title>POST /wd/hub/session/c373a0bc-c9fa-406d-b06d-44757536d38b/element/dc7536b7-a95e-4b51-925e-8d79f9143311/click</title>
+                    <attachments>
+                        <attachment title='Response' source='0d5a8f97-4885-42e2-8c8e-ea45df41b929-attachment.json' type='application/json' size='95'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1583312595234' status='passed' stop='1583312608326'>
+            <name>I click on Ma selection button</name>
+            <title>I click on Ma selection button</title>
+            <labels>
+                <label name='feature' value='To test the Electre application'/>
+                <label name='story' value='Electre application'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='holala-5.1'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"appiumVersion":"1.16.0","browserName":"","platformName":"Android","app":"/apk/elect.apk","appPackage":"com.immanens.electrelh","appActivity":"com.immanens.electrelh.ui.activities.SplashScreenActivity","adbExecTimeout":20000,"platformVersion":"5.1","deviceName":"holala","waitforTimeout":20000,"commandTimeout":20000,"newCommandTimeout":1800000,"appWaitDuration":20000,"automationName":"UiAutomator2","clearSystemFiles":true}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/projet/QA_mobile/features/livre.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1583312597238' status='passed' stop='1583312597338'>
+                    <name>POST /wd/hub/session/c373a0bc-c9fa-406d-b06d-44757536d38b/element</name>
+                    <title>POST /wd/hub/session/c373a0bc-c9fa-406d-b06d-44757536d38b/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0b140e3e-52ca-4c6d-ae57-0da0484f0342-attachment.json' type='application/json' size='125'/>
+                        <attachment title='Response' source='902aafeb-e8e4-462c-b024-ca6139714720-attachment.json' type='application/json' size='243'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1583312597339' status='passed' stop='1583312598313'>
+                    <name>POST /wd/hub/session/c373a0bc-c9fa-406d-b06d-44757536d38b/element/c0745a03-1d54-44eb-b56b-cd75d6e493f6/click</name>
+                    <title>POST /wd/hub/session/c373a0bc-c9fa-406d-b06d-44757536d38b/element/c0745a03-1d54-44eb-b56b-cd75d6e493f6/click</title>
+                    <attachments>
+                        <attachment title='Response' source='d0638ec8-afe6-46bd-874f-496b3932e5d0-attachment.json' type='application/json' size='95'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1583312608326' status='failed' stop='1583312608409'>
+            <name>the result "LIVRES PRÈS DE VOUS" should be displayed</name>
+            <title>the result "LIVRES PRÈS DE VOUS" should be displayed</title>
+            <labels>
+                <label name='feature' value='To test the Electre application'/>
+                <label name='story' value='Electre application'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='holala-5.1'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"appiumVersion":"1.16.0","browserName":"","platformName":"Android","app":"/apk/elect.apk","appPackage":"com.immanens.electrelh","appActivity":"com.immanens.electrelh.ui.activities.SplashScreenActivity","adbExecTimeout":20000,"platformVersion":"5.1","deviceName":"holala","waitforTimeout":20000,"commandTimeout":20000,"newCommandTimeout":1800000,"appWaitDuration":20000,"automationName":"UiAutomator2","clearSystemFiles":true}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/projet/QA_mobile/features/livre.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1583312608331' status='passed' stop='1583312608369'>
+                    <name>POST /wd/hub/session/c373a0bc-c9fa-406d-b06d-44757536d38b/elements</name>
+                    <title>POST /wd/hub/session/c373a0bc-c9fa-406d-b06d-44757536d38b/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='69b2890e-267c-4753-8eae-ef399a0d7474-attachment.json' type='application/json' size='111'/>
+                        <attachment title='Response' source='b9c7bf46-dd1a-4044-9603-34b5479e6fe2-attachment.json' type='application/json' size='271'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1583312608370' status='passed' stop='1583312608400'>
+                    <name>GET /wd/hub/session/c373a0bc-c9fa-406d-b06d-44757536d38b/element/2929d758-c52f-4949-ac42-b2289c43cf3f/text</name>
+                    <title>GET /wd/hub/session/c373a0bc-c9fa-406d-b06d-44757536d38b/element/2929d758-c52f-4949-ac42-b2289c43cf3f/text</title>
+                    <attachments>
+                        <attachment title='Response' source='be22ae71-9ebe-41db-85a8-d1d805b5f4d5-attachment.json' type='application/json' size='181'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 'F' to include 'LIVRES PRÈS DE VOUS'</message>
+                <stack-trace>AssertionError: expected 'F' to include 'LIVRES PRÈS DE VOUS'
+                    at World.&lt;anonymous> (/projet/QA_mobile/stepDefinitions/livreSteps.ts:30:31)
+                    at new Promise (&lt;anonymous>)
+                    at new F (/projet/QA_mobile/node_modules/core-js/library/modules/_export.js:36:28)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

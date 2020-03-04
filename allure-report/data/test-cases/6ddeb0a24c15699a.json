@@ -1,0 +1,136 @@
+{
+  "uid" : "6ddeb0a24c15699a",
+  "name" : "the result \"3\" should be displayed",
+  "fullName" : "To test the add & subtract feature of mobile calculator app Divide two numbers.the result \"3\" should be displayed",
+  "historyId" : "839d13e8b17028a00e62e764be9e1c98",
+  "time" : {
+    "start" : 1582907331384,
+    "stop" : 1582907331422,
+    "duration" : 38
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"android=new UiSelector().className(\"android.widget.TextView\")\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"android=new UiSelector().className(\"android.widget.TextView\")\").\n                    at getText(\"android=new UiSelector().className(\"android.widget.TextView\")\") - at elements(\"android=new UiSelector().className(\"android.widget.TextView\")\") - getText.js:18:17",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"android=new UiSelector().className(\"android.widget.TextView\")\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"android=new UiSelector().className(\"android.widget.TextView\")\").\n                    at getText(\"android=new UiSelector().className(\"android.widget.TextView\")\") - at elements(\"android=new UiSelector().className(\"android.widget.TextView\")\") - getText.js:18:17",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/6a25c5e2-58cd-4630-a065-7e82d14de3b5/elements",
+      "time" : {
+        "start" : 1582907331387,
+        "stop" : 1582907331421,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a8caeb9b6829ab5",
+        "name" : "Request",
+        "source" : "a8caeb9b6829ab5.json",
+        "type" : "application/json",
+        "size" : 111
+      }, {
+        "uid" : "4c85b4c203df465a",
+        "name" : "Response",
+        "source" : "4c85b4c203df465a.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "To test the add & subtract feature of mobile calculator app"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Divide two numbers"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the add & subtract feature of mobile calculator app Divide two numbers"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the add & subtract feature of mobile calculator app Divide two numbers"
+  }, {
+    "name" : "testMethod",
+    "value" : "the result \"3\" should be displayed"
+  }, {
+    "name" : "package",
+    "value" : "To test the add & subtract feature of mobile calculator app Divide two numbers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "holala-5.1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7ba70ecb56966afe",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"android=new UiSelector().className(\"android.widget.TextView\")\").",
+      "time" : {
+        "start" : 1582907116984,
+        "stop" : 1582907117550,
+        "duration" : 566
+      }
+    }, {
+      "uid" : "58a4030fe2812ff0",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"android=new UiSelector().className(\"android.widget.TextView\")\").",
+      "time" : {
+        "start" : 1582906998651,
+        "stop" : 1582906999261,
+        "duration" : 610
+      }
+    }, {
+      "uid" : "fdf41d97e5218f99",
+      "status" : "broken",
+      "statusDetails" : "An element could not be located on the page using the given search parameters (\"android=new UiSelector().className(\"android.widget.TextView\")\").",
+      "time" : {
+        "start" : 1582906708495,
+        "stop" : 1582906708977,
+        "duration" : 482
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6ddeb0a24c15699a.json",
+  "parameterValues" : [ "holala-5.1" ]
+}

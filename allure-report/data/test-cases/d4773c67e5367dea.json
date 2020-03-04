@@ -1,0 +1,122 @@
+{
+  "uid" : "d4773c67e5367dea",
+  "name" : "I click on AC button",
+  "fullName" : "To test the add & subtract feature of mobile calculator app Clear the text.I click on AC button",
+  "historyId" : "b563a449fb9bce30470c0dee04b7a519",
+  "time" : {
+    "start" : 1583248683161,
+    "stop" : 1583248684523,
+    "duration" : 1362
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/e266851d-8c18-4c4a-99a1-cd4dc010e09e/element",
+      "time" : {
+        "start" : 1583248683165,
+        "stop" : 1583248683186,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "44a843aea5d8689b",
+        "name" : "Request",
+        "source" : "44a843aea5d8689b.json",
+        "type" : "application/json",
+        "size" : 119
+      }, {
+        "uid" : "277bfcce0fc6ad9b",
+        "name" : "Response",
+        "source" : "277bfcce0fc6ad9b.json",
+        "type" : "application/json",
+        "size" : 243
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/e266851d-8c18-4c4a-99a1-cd4dc010e09e/element/5cab289b-e410-47e4-b9eb-928684905b96/click",
+      "time" : {
+        "start" : 1583248683187,
+        "stop" : 1583248684522,
+        "duration" : 1335
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "584e3f5899125922",
+        "name" : "Response",
+        "source" : "584e3f5899125922.json",
+        "type" : "application/json",
+        "size" : 95
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "To test the add & subtract feature of mobile calculator app"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Clear the text"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the add & subtract feature of mobile calculator app Clear the text"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the add & subtract feature of mobile calculator app Clear the text"
+  }, {
+    "name" : "testMethod",
+    "value" : "I click on AC button"
+  }, {
+    "name" : "package",
+    "value" : "To test the add & subtract feature of mobile calculator app Clear the text"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "and7-7.1.1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d4773c67e5367dea.json",
+  "parameterValues" : [ "and7-7.1.1" ]
+}

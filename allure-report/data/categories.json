@@ -1,0 +1,120 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "An element could not be located on the page using the given search parameters (\"android.widget.TextView\").",
+      "children" : [ {
+        "name" : "I am on my mobile calculator app",
+        "uid" : "c10456795eeac2eb",
+        "parentUid" : "2bf42d8decc796fe24ef826cb8a40157",
+        "status" : "broken",
+        "time" : {
+          "start" : 1582907315237,
+          "stop" : 1582907315382,
+          "duration" : 145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "holala-5.1" ]
+      } ],
+      "uid" : "2bf42d8decc796fe24ef826cb8a40157"
+    }, {
+      "name" : "An element could not be located on the page using the given search parameters (\"android=new UiSelector().className(\"android.widget.TextView\")\").",
+      "children" : [ {
+        "name" : "the result \"2\" should be displayed",
+        "uid" : "94e5e82f86f98bd5",
+        "parentUid" : "3658861266aea9c0d9be00b6ad6a8368",
+        "status" : "broken",
+        "time" : {
+          "start" : 1582907321180,
+          "stop" : 1582907321218,
+          "duration" : 38
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "holala-5.1" ]
+      }, {
+        "name" : "the result \"15\" should be displayed",
+        "uid" : "39a8ad8b7b0c528e",
+        "parentUid" : "3658861266aea9c0d9be00b6ad6a8368",
+        "status" : "broken",
+        "time" : {
+          "start" : 1582907325569,
+          "stop" : 1582907326259,
+          "duration" : 690
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "holala-5.1" ]
+      }, {
+        "name" : "the result \"3\" should be displayed",
+        "uid" : "6ddeb0a24c15699a",
+        "parentUid" : "3658861266aea9c0d9be00b6ad6a8368",
+        "status" : "broken",
+        "time" : {
+          "start" : 1582907331384,
+          "stop" : 1582907331422,
+          "duration" : 38
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "holala-5.1" ]
+      }, {
+        "name" : "the result should be cleared",
+        "uid" : "1d43827fcf9fa84f",
+        "parentUid" : "3658861266aea9c0d9be00b6ad6a8368",
+        "status" : "broken",
+        "time" : {
+          "start" : 1582907337801,
+          "stop" : 1582907338177,
+          "duration" : 376
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "holala-5.1" ]
+      } ],
+      "uid" : "3658861266aea9c0d9be00b6ad6a8368"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected 'F' to include 'LIVRES PRÈS DE VOUS'",
+      "children" : [ {
+        "name" : "the result \"LIVRES PRÈS DE VOUS\" should be displayed",
+        "uid" : "2ab80fb109be4836",
+        "parentUid" : "76ff3246bac420b4154cf34f3c485d77",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582907756406,
+          "stop" : 1582907757782,
+          "duration" : 1376
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "myemulator-5.1" ]
+      } ],
+      "uid" : "76ff3246bac420b4154cf34f3c485d77"
+    }, {
+      "name" : "expected [ 'RAD', '', '' ] to equal ''",
+      "children" : [ {
+        "name" : "the result should be cleared",
+        "uid" : "68d756fb820bc751",
+        "parentUid" : "320b1015f0dcd775c3a914993422ac36",
+        "status" : "failed",
+        "time" : {
+          "start" : 1583248684523,
+          "stop" : 1583248684641,
+          "duration" : 118
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "and7-7.1.1" ]
+      } ],
+      "uid" : "320b1015f0dcd775c3a914993422ac36"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

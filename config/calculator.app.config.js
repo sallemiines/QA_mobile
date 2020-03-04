@@ -2,6 +2,7 @@
  * Configuration file
  */
 
+
 const host = '127.0.0.1';   // default appium host
 const port = 4723;          // default appium port
 
@@ -81,7 +82,7 @@ exports.config = {
      * of the project.
      */
     onPrepare: function () {
-        console.log('<<< NATIVE APPLICATION TESTS STARTED >>>');
+        console.log('<<< NATIVE APPLICATION "CALCULATOR" TESTS STARTED >>>');
     },
 
     afterScenario: function (scenario) {

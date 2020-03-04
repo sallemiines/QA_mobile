@@ -1,0 +1,285 @@
+{
+  "uid" : "52f7d9481af738c4",
+  "name" : "I add \"8\" and \"7\"",
+  "fullName" : "To test the add & subtract feature of mobile calculator app Clear the text.I add \"8\" and \"7\"",
+  "historyId" : "1de1e579b486c69eaa16e13e209f72e6",
+  "time" : {
+    "start" : 1582906999270,
+    "stop" : 1582907003891,
+    "duration" : 4621
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /wd/hub/session/95217e05-e9ff-4d66-9994-b8c663ac7c2d/screenshot",
+      "time" : {
+        "start" : 1582906999270,
+        "stop" : 0,
+        "duration" : -1582906999270
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "POST /wd/hub/session/95217e05-e9ff-4d66-9994-b8c663ac7c2d/element",
+        "time" : {
+          "start" : 1582906999270,
+          "stop" : 1582906999295,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "19be874f1a2b3e54",
+          "name" : "Request",
+          "source" : "19be874f1a2b3e54.json",
+          "type" : "application/json",
+          "size" : 123
+        }, {
+          "uid" : "a565f7116d667ea0",
+          "name" : "Response",
+          "source" : "a565f7116d667ea0.json",
+          "type" : "application/json",
+          "size" : 243
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "POST /wd/hub/session/95217e05-e9ff-4d66-9994-b8c663ac7c2d/element/0687316c-54b9-46a9-a2de-ba48c378f8e9/click",
+        "time" : {
+          "start" : 1582906999295,
+          "stop" : 1582907000249,
+          "duration" : 954
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d4936f2c5a8d5ed4",
+          "name" : "Screenshot",
+          "source" : "d4936f2c5a8d5ed4.png",
+          "type" : "image/png",
+          "size" : 45854
+        }, {
+          "uid" : "6632935214debfe8",
+          "name" : "Response",
+          "source" : "6632935214debfe8.json",
+          "type" : "application/json",
+          "size" : 95
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "POST /wd/hub/session/95217e05-e9ff-4d66-9994-b8c663ac7c2d/element",
+        "time" : {
+          "start" : 1582907000250,
+          "stop" : 1582907000572,
+          "duration" : 322
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "780295a56fb6b715",
+          "name" : "Request",
+          "source" : "780295a56fb6b715.json",
+          "type" : "application/json",
+          "size" : 122
+        }, {
+          "uid" : "e903e893ff2566a5",
+          "name" : "Response",
+          "source" : "e903e893ff2566a5.json",
+          "type" : "application/json",
+          "size" : 243
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "POST /wd/hub/session/95217e05-e9ff-4d66-9994-b8c663ac7c2d/element/a46bfcf4-765b-479b-ade2-c4b7fa1ef05e/click",
+        "time" : {
+          "start" : 1582907000573,
+          "stop" : 1582907001356,
+          "duration" : 783
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3f81e2796d2b2f0",
+          "name" : "Response",
+          "source" : "3f81e2796d2b2f0.json",
+          "type" : "application/json",
+          "size" : 95
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "POST /wd/hub/session/95217e05-e9ff-4d66-9994-b8c663ac7c2d/element",
+        "time" : {
+          "start" : 1582907001361,
+          "stop" : 1582907001736,
+          "duration" : 375
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f1bb8b033ab34a53",
+          "name" : "Request",
+          "source" : "f1bb8b033ab34a53.json",
+          "type" : "application/json",
+          "size" : 123
+        }, {
+          "uid" : "4ce45e516727e490",
+          "name" : "Response",
+          "source" : "4ce45e516727e490.json",
+          "type" : "application/json",
+          "size" : 243
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "POST /wd/hub/session/95217e05-e9ff-4d66-9994-b8c663ac7c2d/element/e05568fa-312e-468f-a6ae-c8e878293910/click",
+        "time" : {
+          "start" : 1582907001737,
+          "stop" : 1582907002631,
+          "duration" : 894
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "f51b71b04d26fb85",
+          "name" : "Response",
+          "source" : "f51b71b04d26fb85.json",
+          "type" : "application/json",
+          "size" : 95
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "POST /wd/hub/session/95217e05-e9ff-4d66-9994-b8c663ac7c2d/element",
+        "time" : {
+          "start" : 1582907002636,
+          "stop" : 1582907002841,
+          "duration" : 205
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d338e0877de3c5c3",
+          "name" : "Request",
+          "source" : "d338e0877de3c5c3.json",
+          "type" : "application/json",
+          "size" : 118
+        }, {
+          "uid" : "c9dabc98bdd98f72",
+          "name" : "Response",
+          "source" : "c9dabc98bdd98f72.json",
+          "type" : "application/json",
+          "size" : 243
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "POST /wd/hub/session/95217e05-e9ff-4d66-9994-b8c663ac7c2d/element/e55e9a58-8e60-4b7b-8114-b88e54e285d1/click",
+        "time" : {
+          "start" : 1582907002842,
+          "stop" : 1582907003890,
+          "duration" : 1048
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "a09547e5bba83614",
+          "name" : "Response",
+          "source" : "a09547e5bba83614.json",
+          "type" : "application/json",
+          "size" : 95
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 8,
+      "attachmentsCount" : 13,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 13,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "To test the add & subtract feature of mobile calculator app"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Clear the text"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the add & subtract feature of mobile calculator app Clear the text"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the add & subtract feature of mobile calculator app Clear the text"
+  }, {
+    "name" : "testMethod",
+    "value" : "I add \"8\" and \"7\""
+  }, {
+    "name" : "package",
+    "value" : "To test the add & subtract feature of mobile calculator app Clear the text"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "holala-5.1"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "52f7d9481af738c4.json",
+  "parameterValues" : [ "holala-5.1" ]
+}

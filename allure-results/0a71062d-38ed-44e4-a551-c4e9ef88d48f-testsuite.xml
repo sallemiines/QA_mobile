@@ -1,0 +1,135 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583312428794' stop='1583312433855'>
+    <name>To test the add &amp; subtract feature of mobile calculator app Subtract two numbers</name>
+    <title>To test the add &amp; subtract feature of mobile calculator app Subtract two numbers</title>
+    <test-cases>
+        <test-case start='1583312428794' status='passed' stop='1583312433154'>
+            <name>I subtract "7" from "5"</name>
+            <title>I subtract "7" from "5"</title>
+            <labels>
+                <label name='feature' value='To test the add &amp; subtract feature of mobile calculator app'/>
+                <label name='story' value='Subtract two numbers'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='holala-5.1'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"appiumVersion":"1.16.0","browserName":"","platformName":"Android","appPackage":"com.android.calculator2","appActivity":"com.android.calculator2.Calculator","adbExecTimeout":20000,"platformVersion":"5.1","deviceName":"holala","waitforTimeout":20000,"commandTimeout":20000,"newCommandTimeout":1800000,"appWaitDuration":20000,"automationName":"UiAutomator2","clearSystemFiles":true}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/projet/QA_mobile/features/calculator.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1583312428794' status='undefined'>
+                    <name>GET /wd/hub/session/302cb6a1-1b60-4e16-b943-b98779d5b836/screenshot</name>
+                    <title>GET /wd/hub/session/302cb6a1-1b60-4e16-b943-b98779d5b836/screenshot</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1583312428794' status='passed' stop='1583312429118'>
+                            <name>POST /wd/hub/session/302cb6a1-1b60-4e16-b943-b98779d5b836/element</name>
+                            <title>POST /wd/hub/session/302cb6a1-1b60-4e16-b943-b98779d5b836/element</title>
+                            <attachments>
+                                <attachment title='Request' source='58c9779f-fd4e-4813-8a4d-fcdf0df4959d-attachment.json' type='application/json' size='123'/>
+                                <attachment title='Screenshot' source='aa0c18d8-5b71-49c8-ac67-948f44ddfa07-attachment.png' type='image/png' size='40592'/>
+                                <attachment title='Response' source='62130057-c16f-4d0d-a0b1-9ed241fc1da0-attachment.json' type='application/json' size='243'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1583312429118' status='passed' stop='1583312429888'>
+                            <name>POST /wd/hub/session/302cb6a1-1b60-4e16-b943-b98779d5b836/element/b5c5b244-9a39-4b63-bc52-60d7e8a19eac/click</name>
+                            <title>POST /wd/hub/session/302cb6a1-1b60-4e16-b943-b98779d5b836/element/b5c5b244-9a39-4b63-bc52-60d7e8a19eac/click</title>
+                            <attachments>
+                                <attachment title='Response' source='a8133ac4-790e-45fa-9329-d5d1df2257e0-attachment.json' type='application/json' size='95'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1583312429888' status='passed' stop='1583312430036'>
+                            <name>POST /wd/hub/session/302cb6a1-1b60-4e16-b943-b98779d5b836/element</name>
+                            <title>POST /wd/hub/session/302cb6a1-1b60-4e16-b943-b98779d5b836/element</title>
+                            <attachments>
+                                <attachment title='Request' source='48190ec1-f54d-4dbf-91e3-b7b87f20fa01-attachment.json' type='application/json' size='122'/>
+                                <attachment title='Response' source='02b92703-b7e1-4ea4-ad22-ad3af95257dc-attachment.json' type='application/json' size='243'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1583312430036' status='passed' stop='1583312431084'>
+                            <name>POST /wd/hub/session/302cb6a1-1b60-4e16-b943-b98779d5b836/element/7083747b-b37e-46b7-b53b-de202ff5bbd6/click</name>
+                            <title>POST /wd/hub/session/302cb6a1-1b60-4e16-b943-b98779d5b836/element/7083747b-b37e-46b7-b53b-de202ff5bbd6/click</title>
+                            <attachments>
+                                <attachment title='Response' source='b67f2b4b-1a92-48ac-85b5-66698545f856-attachment.json' type='application/json' size='95'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1583312431088' status='passed' stop='1583312431123'>
+                            <name>POST /wd/hub/session/302cb6a1-1b60-4e16-b943-b98779d5b836/element</name>
+                            <title>POST /wd/hub/session/302cb6a1-1b60-4e16-b943-b98779d5b836/element</title>
+                            <attachments>
+                                <attachment title='Request' source='784979fd-822a-4f6c-89dc-5976d139d4d0-attachment.json' type='application/json' size='123'/>
+                                <attachment title='Response' source='7f3bd9e5-cddd-4991-87f4-3d8fb0d3170c-attachment.json' type='application/json' size='243'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1583312431124' status='passed' stop='1583312432231'>
+                            <name>POST /wd/hub/session/302cb6a1-1b60-4e16-b943-b98779d5b836/element/e92d738b-8fe4-4850-af31-fb3648342eee/click</name>
+                            <title>POST /wd/hub/session/302cb6a1-1b60-4e16-b943-b98779d5b836/element/e92d738b-8fe4-4850-af31-fb3648342eee/click</title>
+                            <attachments>
+                                <attachment title='Response' source='008126c3-0c59-4e1c-a940-393b440fa305-attachment.json' type='application/json' size='95'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1583312432234' status='passed' stop='1583312432389'>
+                            <name>POST /wd/hub/session/302cb6a1-1b60-4e16-b943-b98779d5b836/element</name>
+                            <title>POST /wd/hub/session/302cb6a1-1b60-4e16-b943-b98779d5b836/element</title>
+                            <attachments>
+                                <attachment title='Request' source='eb37372f-105f-4259-bdd2-ca2a2d26ad1b-attachment.json' type='application/json' size='118'/>
+                                <attachment title='Response' source='7ea130a7-4ad0-4c15-a805-aa51d0fdb4a9-attachment.json' type='application/json' size='243'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1583312432390' status='passed' stop='1583312433152'>
+                            <name>POST /wd/hub/session/302cb6a1-1b60-4e16-b943-b98779d5b836/element/d7359169-7616-4267-94ec-27a413c72a70/click</name>
+                            <title>POST /wd/hub/session/302cb6a1-1b60-4e16-b943-b98779d5b836/element/d7359169-7616-4267-94ec-27a413c72a70/click</title>
+                            <attachments>
+                                <attachment title='Response' source='85237b12-317a-4993-85b2-46d748867ee9-attachment.json' type='application/json' size='95'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1583312433154' status='broken' stop='1583312433853'>
+            <name>the result "2" should be displayed</name>
+            <title>the result "2" should be displayed</title>
+            <labels>
+                <label name='feature' value='To test the add &amp; subtract feature of mobile calculator app'/>
+                <label name='story' value='Subtract two numbers'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='holala-5.1'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"appiumVersion":"1.16.0","browserName":"","platformName":"Android","appPackage":"com.android.calculator2","appActivity":"com.android.calculator2.Calculator","adbExecTimeout":20000,"platformVersion":"5.1","deviceName":"holala","waitforTimeout":20000,"commandTimeout":20000,"newCommandTimeout":1800000,"appWaitDuration":20000,"automationName":"UiAutomator2","clearSystemFiles":true}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/projet/QA_mobile/features/calculator.feature"]'/>
+            </parameters>
+            <steps>
+                <step start='1583312433156' status='passed' stop='1583312433851'>
+                    <name>POST /wd/hub/session/302cb6a1-1b60-4e16-b943-b98779d5b836/elements</name>
+                    <title>POST /wd/hub/session/302cb6a1-1b60-4e16-b943-b98779d5b836/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='1bcc1385-7738-4382-aab3-645c9dfec947-attachment.json' type='application/json' size='111'/>
+                        <attachment title='Response' source='cc94c51b-49f4-4fd0-82cc-1367bc3e3e61-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>An element could not be located on the page using the given search parameters ("android=new UiSelector().className("android.widget.TextView")").</message>
+                <stack-trace>Error: An element could not be located on the page using the given search parameters ("android=new UiSelector().className("android.widget.TextView")").
+                    at getText("android=new UiSelector().className("android.widget.TextView")") - at elements("android=new UiSelector().className("android.widget.TextView")") - getText.js:18:17</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

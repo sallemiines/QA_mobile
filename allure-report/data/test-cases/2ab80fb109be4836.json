@@ -1,0 +1,130 @@
+{
+  "uid" : "2ab80fb109be4836",
+  "name" : "the result \"LIVRES PRÈS DE VOUS\" should be displayed",
+  "fullName" : "To test the Electre application Electre application.the result \"LIVRES PRÈS DE VOUS\" should be displayed",
+  "historyId" : "36903c759d53bbccad27686bbbec1a1d",
+  "time" : {
+    "start" : 1582907756406,
+    "stop" : 1582907757782,
+    "duration" : 1376
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected 'F' to include 'LIVRES PRÈS DE VOUS'",
+  "statusTrace" : "AssertionError: expected 'F' to include 'LIVRES PRÈS DE VOUS'\n                    at World.<anonymous> (/projet/QA_mobile/stepDefinitions/livreSteps.ts:30:31)\n                    at new Promise (<anonymous>)\n                    at new F (/projet/QA_mobile/node_modules/core-js/library/modules/_export.js:36:28)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected 'F' to include 'LIVRES PRÈS DE VOUS'",
+    "statusTrace" : "AssertionError: expected 'F' to include 'LIVRES PRÈS DE VOUS'\n                    at World.<anonymous> (/projet/QA_mobile/stepDefinitions/livreSteps.ts:30:31)\n                    at new Promise (<anonymous>)\n                    at new F (/projet/QA_mobile/node_modules/core-js/library/modules/_export.js:36:28)",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/f8dc345b-6cb1-467e-91e5-84c3d0e31113/elements",
+      "time" : {
+        "start" : 1582907756411,
+        "stop" : 1582907757722,
+        "duration" : 1311
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9b46245d6c95b5dd",
+        "name" : "Request",
+        "source" : "9b46245d6c95b5dd.json",
+        "type" : "application/json",
+        "size" : 111
+      }, {
+        "uid" : "60c3d7497383ddf5",
+        "name" : "Response",
+        "source" : "60c3d7497383ddf5.json",
+        "type" : "application/json",
+        "size" : 271
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/f8dc345b-6cb1-467e-91e5-84c3d0e31113/element/1290102d-bb97-4170-8f9b-c9d3da2ff331/text",
+      "time" : {
+        "start" : 1582907757723,
+        "stop" : 1582907757778,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e22df116d640161d",
+        "name" : "Response",
+        "source" : "e22df116d640161d.json",
+        "type" : "application/json",
+        "size" : 183
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "To test the Electre application"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Electre application"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the Electre application Electre application"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the Electre application Electre application"
+  }, {
+    "name" : "testMethod",
+    "value" : "the result \"LIVRES PRÈS DE VOUS\" should be displayed"
+  }, {
+    "name" : "package",
+    "value" : "To test the Electre application Electre application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "myemulator-5.1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2ab80fb109be4836.json",
+  "parameterValues" : [ "myemulator-5.1" ]
+}

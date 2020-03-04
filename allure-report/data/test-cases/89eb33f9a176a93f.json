@@ -1,0 +1,227 @@
+{
+  "uid" : "89eb33f9a176a93f",
+  "name" : "I am on my app",
+  "fullName" : "To test the Electre application Electre application.I am on my app",
+  "historyId" : "270ec245ea6cb13f55b75d1cb6fe4ea7",
+  "time" : {
+    "start" : 1582907735120,
+    "stop" : 1582907740917,
+    "duration" : 5797
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/f8dc345b-6cb1-467e-91e5-84c3d0e31113/elements",
+      "time" : {
+        "start" : 1582907737144,
+        "stop" : 1582907740173,
+        "duration" : 3029
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "af4416038d52bb22",
+        "name" : "Request",
+        "source" : "af4416038d52bb22.json",
+        "type" : "application/json",
+        "size" : 69
+      }, {
+        "uid" : "8e92e537111e254b",
+        "name" : "Response",
+        "source" : "8e92e537111e254b.json",
+        "type" : "application/json",
+        "size" : 1141
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/f8dc345b-6cb1-467e-91e5-84c3d0e31113/element/55171abc-32c5-4e6c-afbc-55f5d51cb2dc/text",
+      "time" : {
+        "start" : 1582907740178,
+        "stop" : 1582907740911,
+        "duration" : 733
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "GET /wd/hub/session/f8dc345b-6cb1-467e-91e5-84c3d0e31113/element/18923d7c-70ef-436a-8872-164ad1887025/text",
+        "time" : {
+          "start" : 1582907740179,
+          "stop" : 1582907740859,
+          "duration" : 680
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "GET /wd/hub/session/f8dc345b-6cb1-467e-91e5-84c3d0e31113/element/62c3e9ef-e09a-4cdd-bf89-b2a3ba27a4b5/text",
+          "time" : {
+            "start" : 1582907740180,
+            "stop" : 1582907740637,
+            "duration" : 457
+          },
+          "status" : "passed",
+          "steps" : [ {
+            "name" : "GET /wd/hub/session/f8dc345b-6cb1-467e-91e5-84c3d0e31113/element/d328b3f6-4690-4f25-b17a-6cf1f035590f/text",
+            "time" : {
+              "start" : 1582907740181,
+              "stop" : 1582907740629,
+              "duration" : 448
+            },
+            "status" : "passed",
+            "steps" : [ {
+              "name" : "GET /wd/hub/session/f8dc345b-6cb1-467e-91e5-84c3d0e31113/element/b41979f3-7ab9-47c1-8bfb-e37066560814/text",
+              "time" : {
+                "start" : 1582907740181,
+                "stop" : 1582907740612,
+                "duration" : 431
+              },
+              "status" : "passed",
+              "steps" : [ {
+                "name" : "GET /wd/hub/session/f8dc345b-6cb1-467e-91e5-84c3d0e31113/element/f186c5d1-afaa-466f-86a0-bdcb00d62929/text",
+                "time" : {
+                  "start" : 1582907740182,
+                  "stop" : 1582907740603,
+                  "duration" : 421
+                },
+                "status" : "passed",
+                "steps" : [ ],
+                "attachments" : [ {
+                  "uid" : "f0ede56d262c6870",
+                  "name" : "Response",
+                  "source" : "f0ede56d262c6870.json",
+                  "type" : "application/json",
+                  "size" : 104
+                } ],
+                "parameters" : [ ],
+                "stepsCount" : 0,
+                "attachmentsCount" : 1,
+                "shouldDisplayMessage" : false,
+                "hasContent" : true
+              } ],
+              "attachments" : [ {
+                "uid" : "f898074c0e6fabda",
+                "name" : "Response",
+                "source" : "f898074c0e6fabda.json",
+                "type" : "application/json",
+                "size" : 93
+              } ],
+              "parameters" : [ ],
+              "stepsCount" : 1,
+              "attachmentsCount" : 2,
+              "shouldDisplayMessage" : false,
+              "hasContent" : true
+            } ],
+            "attachments" : [ {
+              "uid" : "21ba989dbcafd3cb",
+              "name" : "Response",
+              "source" : "21ba989dbcafd3cb.json",
+              "type" : "application/json",
+              "size" : 123
+            } ],
+            "parameters" : [ ],
+            "stepsCount" : 2,
+            "attachmentsCount" : 3,
+            "shouldDisplayMessage" : false,
+            "hasContent" : true
+          } ],
+          "attachments" : [ {
+            "uid" : "51337fa0d3c50d3e",
+            "name" : "Response",
+            "source" : "51337fa0d3c50d3e.json",
+            "type" : "application/json",
+            "size" : 118
+          } ],
+          "parameters" : [ ],
+          "stepsCount" : 3,
+          "attachmentsCount" : 4,
+          "shouldDisplayMessage" : false,
+          "hasContent" : true
+        } ],
+        "attachments" : [ {
+          "uid" : "fcd3b507543f43b0",
+          "name" : "Response",
+          "source" : "fcd3b507543f43b0.json",
+          "type" : "application/json",
+          "size" : 155
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "attachmentsCount" : 5,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "fa35a2aea633bbb8",
+        "name" : "Response",
+        "source" : "fa35a2aea633bbb8.json",
+        "type" : "application/json",
+        "size" : 142
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "To test the Electre application"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Electre application"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the Electre application Electre application"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the Electre application Electre application"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am on my app"
+  }, {
+    "name" : "package",
+    "value" : "To test the Electre application Electre application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "myemulator-5.1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "89eb33f9a176a93f.json",
+  "parameterValues" : [ "myemulator-5.1" ]
+}

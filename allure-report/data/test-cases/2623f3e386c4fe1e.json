@@ -1,0 +1,88 @@
+{
+  "uid" : "2623f3e386c4fe1e",
+  "name" : "I add \"3\" and \"5\"",
+  "fullName" : "To test the add & subtract feature of mobile calculator app Add two numbers.I add \"3\" and \"5\"",
+  "historyId" : "76723e9658649ca676a5adedd609da99",
+  "time" : {
+    "start" : 1582907315383,
+    "stop" : 1582907315383,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "To test the add & subtract feature of mobile calculator app"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Add two numbers"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the add & subtract feature of mobile calculator app Add two numbers"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the add & subtract feature of mobile calculator app Add two numbers"
+  }, {
+    "name" : "testMethod",
+    "value" : "I add \"3\" and \"5\""
+  }, {
+    "name" : "package",
+    "value" : "To test the add & subtract feature of mobile calculator app Add two numbers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "holala-5.1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6f5a2fe02d5ea2ab",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1582907101827,
+        "stop" : 1582907101828,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ee589c61ffb5351a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1582906983921,
+        "stop" : 1582906983922,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "1132a5cae781ca2e",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1582906693478,
+        "stop" : 1582906693478,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2623f3e386c4fe1e.json",
+  "parameterValues" : [ "holala-5.1" ]
+}

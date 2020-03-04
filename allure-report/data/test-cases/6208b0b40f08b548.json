@@ -1,0 +1,143 @@
+{
+  "uid" : "6208b0b40f08b548",
+  "name" : "the result \"3\" should be displayed",
+  "fullName" : "To test the add & subtract feature of mobile calculator app Divide two numbers.the result \"3\" should be displayed",
+  "historyId" : "de7f61cb1ba33491e496904b54bf1b15",
+  "time" : {
+    "start" : 1583248679270,
+    "stop" : 1583248679331,
+    "duration" : 61
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/e266851d-8c18-4c4a-99a1-cd4dc010e09e/elements",
+      "time" : {
+        "start" : 1583248679271,
+        "stop" : 1583248679300,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "30e91a7075f0f045",
+        "name" : "Request",
+        "source" : "30e91a7075f0f045.json",
+        "type" : "application/json",
+        "size" : 111
+      }, {
+        "uid" : "13685782acc90c91",
+        "name" : "Response",
+        "source" : "13685782acc90c91.json",
+        "type" : "application/json",
+        "size" : 445
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /wd/hub/session/e266851d-8c18-4c4a-99a1-cd4dc010e09e/element/bae784e6-1df4-4f5f-85ce-595e7a49a861/text",
+      "time" : {
+        "start" : 1583248679301,
+        "stop" : 1583248679331,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "GET /wd/hub/session/e266851d-8c18-4c4a-99a1-cd4dc010e09e/element/33cb503c-0487-449d-b380-d54aab164ec7/text",
+        "time" : {
+          "start" : 1583248679301,
+          "stop" : 1583248679316,
+          "duration" : 15
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "6afad9e9a0eaf678",
+          "name" : "Response",
+          "source" : "6afad9e9a0eaf678.json",
+          "type" : "application/json",
+          "size" : 96
+        } ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 1,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "ed12bf89c591e15b",
+        "name" : "Response",
+        "source" : "ed12bf89c591e15b.json",
+        "type" : "application/json",
+        "size" : 94
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "To test the add & subtract feature of mobile calculator app"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Divide two numbers"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the add & subtract feature of mobile calculator app Divide two numbers"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the add & subtract feature of mobile calculator app Divide two numbers"
+  }, {
+    "name" : "testMethod",
+    "value" : "the result \"3\" should be displayed"
+  }, {
+    "name" : "package",
+    "value" : "To test the add & subtract feature of mobile calculator app Divide two numbers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "and7-7.1.1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6208b0b40f08b548.json",
+  "parameterValues" : [ "and7-7.1.1" ]
+}

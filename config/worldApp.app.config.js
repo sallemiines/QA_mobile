@@ -14,6 +14,12 @@ exports.config = {
         './features/world.feature',
     ],
 
+    reporters: ['allure','spec'],
+    reporterOptions: {
+        allure: {
+            outputDir: './allure-results/'
+        }
+    },
     host: host,
     port: port,
 
@@ -74,7 +80,7 @@ exports.config = {
      * of the project.
      */
     onPrepare: function () {
-        console.log('<<< NATIVE APPLICATION TESTS STARTED >>>');
+        console.log('<<< INSTALLING & TESTING APPLICATION WORLD APP >>>');
     },
 
     afterScenario: function (scenario) {

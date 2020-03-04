@@ -1,0 +1,103 @@
+{
+  "uid" : "99aa5571bb8888e0",
+  "name" : "the result should be cleared",
+  "fullName" : "To test the add & subtract feature of mobile calculator app Clear the text.the result should be cleared",
+  "historyId" : "964bed345fa22c2a6795a0a464b3b6e9",
+  "time" : {
+    "start" : 1582906715184,
+    "stop" : 1582906715447,
+    "duration" : 263
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"android=new UiSelector().className(\"android.widget.TextView\")\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"android=new UiSelector().className(\"android.widget.TextView\")\").\n                    at getText(\"android=new UiSelector().className(\"android.widget.TextView\")\") - at elements(\"android=new UiSelector().className(\"android.widget.TextView\")\") - getText.js:18:17",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"android=new UiSelector().className(\"android.widget.TextView\")\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"android=new UiSelector().className(\"android.widget.TextView\")\").\n                    at getText(\"android=new UiSelector().className(\"android.widget.TextView\")\") - at elements(\"android=new UiSelector().className(\"android.widget.TextView\")\") - getText.js:18:17",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/2e6cf380-877f-41cf-895a-73962a3d2636/elements",
+      "time" : {
+        "start" : 1582906715186,
+        "stop" : 1582906715445,
+        "duration" : 259
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5ad79f0697df861e",
+        "name" : "Request",
+        "source" : "5ad79f0697df861e.json",
+        "type" : "application/json",
+        "size" : 111
+      }, {
+        "uid" : "9180a898488e720b",
+        "name" : "Response",
+        "source" : "9180a898488e720b.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "To test the add & subtract feature of mobile calculator app"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Clear the text"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the add & subtract feature of mobile calculator app Clear the text"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the add & subtract feature of mobile calculator app Clear the text"
+  }, {
+    "name" : "testMethod",
+    "value" : "the result should be cleared"
+  }, {
+    "name" : "package",
+    "value" : "To test the add & subtract feature of mobile calculator app Clear the text"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "holala-5.1"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "99aa5571bb8888e0.json",
+  "parameterValues" : [ "holala-5.1" ]
+}

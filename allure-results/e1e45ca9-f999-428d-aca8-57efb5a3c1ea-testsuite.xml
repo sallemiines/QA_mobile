@@ -1,0 +1,66 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1583306838440' stop='1583306842498'>
+    <name>To search appium in google &amp; verify appium webpage Navigate to appium's official website</name>
+    <title>To search appium in google &amp; verify appium webpage Navigate to appium's official website</title>
+    <test-cases>
+        <test-case start='1583306838440' status='broken' stop='1583306842495'>
+            <name>I click on first search link</name>
+            <title>I click on first search link</title>
+            <labels>
+                <label name='feature' value='To search appium in google &amp; verify appium webpage'/>
+                <label name='story' value='Navigate to appium&apos;s official website'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='chrome-7.1.1'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"appiumVersion":"1.16.0","browserName":"chrome","platformName":"Android","platformVersion":"7.1.1","deviceName":"and7","adbExecTimeout":20000,"waitforTimeout":30000,"commandTimeout":30000,"newCommandTimeout":1800000,"noReset":true,"language":"fr","locale":"FR"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/projet/QA_mobile/features/browser.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>An element could not be located on the page using the given search parameters ("#rso > div:nth-child(2) div.KJDcUb a  div.MUxGbd.v0nnCb").</message>
+                <stack-trace>Error: An element could not be located on the page using the given search parameters ("#rso > div:nth-child(2) div.KJDcUb a  div.MUxGbd.v0nnCb").
+                    at click() - index.js:312:3</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1583306842496' status='pending' stop='1583306842496'>
+            <name>I should be navigated to appium's official site "http://appium.io/"</name>
+            <title>I should be navigated to appium's official site "http://appium.io/"</title>
+            <labels>
+                <label name='feature' value='To search appium in google &amp; verify appium webpage'/>
+                <label name='story' value='Navigate to appium&apos;s official website'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='chrome-7.1.1'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"appiumVersion":"1.16.0","browserName":"chrome","platformName":"Android","platformVersion":"7.1.1","deviceName":"and7","adbExecTimeout":20000,"waitforTimeout":30000,"commandTimeout":30000,"newCommandTimeout":1800000,"noReset":true,"language":"fr","locale":"FR"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/projet/QA_mobile/features/browser.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1583306842496' status='pending' stop='1583306842496'>
+            <name>I verify the title of the page to be "Appium: Mobile App Automation Made Awesome."</name>
+            <title>I verify the title of the page to be "Appium: Mobile App Automation Made Awesome."</title>
+            <labels>
+                <label name='feature' value='To search appium in google &amp; verify appium webpage'/>
+                <label name='story' value='Navigate to appium&apos;s official website'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='chrome-7.1.1'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"appiumVersion":"1.16.0","browserName":"chrome","platformName":"Android","platformVersion":"7.1.1","deviceName":"and7","adbExecTimeout":20000,"waitforTimeout":30000,"commandTimeout":30000,"newCommandTimeout":1800000,"noReset":true,"language":"fr","locale":"FR"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/projet/QA_mobile/features/browser.feature"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

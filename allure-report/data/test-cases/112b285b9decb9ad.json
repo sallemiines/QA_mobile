@@ -1,0 +1,103 @@
+{
+  "uid" : "112b285b9decb9ad",
+  "name" : "I am on my mobile calculator app",
+  "fullName" : "To test the add & subtract feature of mobile calculator app Add two numbers.I am on my mobile calculator app",
+  "historyId" : "78d9fa9921f4f96b62becda03abf35e8",
+  "time" : {
+    "start" : 1582906693355,
+    "stop" : 1582906693477,
+    "duration" : 122
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "An element could not be located on the page using the given search parameters (\"android.widget.TextView\").",
+  "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"android.widget.TextView\").\n                    at getText(\"android.widget.TextView\") - at elements(\"android.widget.TextView\") - getText.js:18:17",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "An element could not be located on the page using the given search parameters (\"android.widget.TextView\").",
+    "statusTrace" : "Error: An element could not be located on the page using the given search parameters (\"android.widget.TextView\").\n                    at getText(\"android.widget.TextView\") - at elements(\"android.widget.TextView\") - getText.js:18:17",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/2e6cf380-877f-41cf-895a-73962a3d2636/elements",
+      "time" : {
+        "start" : 1582906693361,
+        "stop" : 1582906693470,
+        "duration" : 109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1ced677e816fba01",
+        "name" : "Request",
+        "source" : "1ced677e816fba01.json",
+        "type" : "application/json",
+        "size" : 69
+      }, {
+        "uid" : "c962f57fe45d982c",
+        "name" : "Response",
+        "source" : "c962f57fe45d982c.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "To test the add & subtract feature of mobile calculator app"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Add two numbers"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the add & subtract feature of mobile calculator app Add two numbers"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the add & subtract feature of mobile calculator app Add two numbers"
+  }, {
+    "name" : "testMethod",
+    "value" : "I am on my mobile calculator app"
+  }, {
+    "name" : "package",
+    "value" : "To test the add & subtract feature of mobile calculator app Add two numbers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "holala-5.1"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "112b285b9decb9ad.json",
+  "parameterValues" : [ "holala-5.1" ]
+}

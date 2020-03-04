@@ -1,0 +1,281 @@
+[ {
+  "uid" : "f6202088e6b3f51e",
+  "name" : "I multiply \"3\" with \"5\"",
+  "time" : {
+    "start" : 1582907321229,
+    "stop" : 1582907325569,
+    "duration" : 4340
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ab80fb109be4836",
+  "name" : "the result \"LIVRES PRÈS DE VOUS\" should be displayed",
+  "time" : {
+    "start" : 1582907756406,
+    "stop" : 1582907757782,
+    "duration" : 1376
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "39a8ad8b7b0c528e",
+  "name" : "the result \"15\" should be displayed",
+  "time" : {
+    "start" : 1582907325569,
+    "stop" : 1582907326259,
+    "duration" : 690
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fb168ac4c4b97d6",
+  "name" : "I divide \"9\" with \"3\"",
+  "time" : {
+    "start" : 1583248675585,
+    "stop" : 1583248679270,
+    "duration" : 3685
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "374ebaa91e53bab3",
+  "name" : "I multiply \"3\" with \"5\"",
+  "time" : {
+    "start" : 1583248671782,
+    "stop" : 1583248675489,
+    "duration" : 3707
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1257f94525c8cecd",
+  "name" : "I subtract \"7\" from \"5\"",
+  "time" : {
+    "start" : 1583248668056,
+    "stop" : 1583248671688,
+    "duration" : 3632
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c10456795eeac2eb",
+  "name" : "I am on my mobile calculator app",
+  "time" : {
+    "start" : 1582907315237,
+    "stop" : 1582907315382,
+    "duration" : 145
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "708e0b468796d41a",
+  "name" : "the result \"8\" should be displayed",
+  "time" : {
+    "start" : 1582907315383,
+    "stop" : 1582907315383,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "d7d71cd96fb41997",
+  "name" : "the result \"2\" should be displayed",
+  "time" : {
+    "start" : 1583248671688,
+    "stop" : 1583248671771,
+    "duration" : 83
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d43827fcf9fa84f",
+  "name" : "the result should be cleared",
+  "time" : {
+    "start" : 1582907337801,
+    "stop" : 1582907338177,
+    "duration" : 376
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bb5140c74b0384ee",
+  "name" : "the result \"8\" should be displayed",
+  "time" : {
+    "start" : 1583248667936,
+    "stop" : 1583248668034,
+    "duration" : 98
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68d756fb820bc751",
+  "name" : "the result should be cleared",
+  "time" : {
+    "start" : 1583248684523,
+    "stop" : 1583248684641,
+    "duration" : 118
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "89eb33f9a176a93f",
+  "name" : "I am on my app",
+  "time" : {
+    "start" : 1582907735120,
+    "stop" : 1582907740917,
+    "duration" : 5797
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6208b0b40f08b548",
+  "name" : "the result \"3\" should be displayed",
+  "time" : {
+    "start" : 1583248679270,
+    "stop" : 1583248679331,
+    "duration" : 61
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f0e25dd78f5acc7",
+  "name" : "I click on AC button",
+  "time" : {
+    "start" : 1582907335575,
+    "stop" : 1582907337801,
+    "duration" : 2226
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28c56ae43f7e0bed",
+  "name" : "I add \"8\" and \"7\"",
+  "time" : {
+    "start" : 1583248679340,
+    "stop" : 1583248683161,
+    "duration" : 3821
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0caf9ae30393b40",
+  "name" : "I am on my mobile calculator app",
+  "time" : {
+    "start" : 1583248664387,
+    "stop" : 1583248664458,
+    "duration" : 71
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21439b70432bc326",
+  "name" : "the result \"15\" should be displayed",
+  "time" : {
+    "start" : 1583248675489,
+    "stop" : 1583248675571,
+    "duration" : 82
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2bcec75e140910a",
+  "name" : "I subtract \"7\" from \"5\"",
+  "time" : {
+    "start" : 1582907315394,
+    "stop" : 1582907321180,
+    "duration" : 5786
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94e5e82f86f98bd5",
+  "name" : "the result \"2\" should be displayed",
+  "time" : {
+    "start" : 1582907321180,
+    "stop" : 1582907321218,
+    "duration" : 38
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c6992171f9777415",
+  "name" : "I click on menu button",
+  "time" : {
+    "start" : 1582907740917,
+    "stop" : 1582907743012,
+    "duration" : 2095
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ddeb0a24c15699a",
+  "name" : "the result \"3\" should be displayed",
+  "time" : {
+    "start" : 1582907331384,
+    "stop" : 1582907331422,
+    "duration" : 38
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cc5cbdc9a908ed55",
+  "name" : "I add \"8\" and \"7\"",
+  "time" : {
+    "start" : 1582907331430,
+    "stop" : 1582907335574,
+    "duration" : 4144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4773c67e5367dea",
+  "name" : "I click on AC button",
+  "time" : {
+    "start" : 1583248683161,
+    "stop" : 1583248684523,
+    "duration" : 1362
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "235d0e477223ab41",
+  "name" : "I add \"3\" and \"5\"",
+  "time" : {
+    "start" : 1583248664458,
+    "stop" : 1583248667936,
+    "duration" : 3478
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2623f3e386c4fe1e",
+  "name" : "I add \"3\" and \"5\"",
+  "time" : {
+    "start" : 1582907315383,
+    "stop" : 1582907315383,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "17d0464caef4e3c4",
+  "name" : "I divide \"9\" with \"3\"",
+  "time" : {
+    "start" : 1582907326275,
+    "stop" : 1582907331384,
+    "duration" : 5109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "744981cbb7235daa",
+  "name" : "I click on Ma selection button",
+  "time" : {
+    "start" : 1582907743012,
+    "stop" : 1582907756406,
+    "duration" : 13394
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

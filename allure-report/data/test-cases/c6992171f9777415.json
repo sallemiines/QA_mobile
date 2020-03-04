@@ -1,0 +1,122 @@
+{
+  "uid" : "c6992171f9777415",
+  "name" : "I click on menu button",
+  "fullName" : "To test the Electre application Electre application.I click on menu button",
+  "historyId" : "881bada3da0fe3286cb734fc8d09b15a",
+  "time" : {
+    "start" : 1582907740917,
+    "stop" : 1582907743012,
+    "duration" : 2095
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /wd/hub/session/f8dc345b-6cb1-467e-91e5-84c3d0e31113/element",
+      "time" : {
+        "start" : 1582907742922,
+        "stop" : 1582907742958,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9d116db441aca341",
+        "name" : "Request",
+        "source" : "9d116db441aca341.json",
+        "type" : "application/json",
+        "size" : 72
+      }, {
+        "uid" : "954a74ced5f3e19b",
+        "name" : "Response",
+        "source" : "954a74ced5f3e19b.json",
+        "type" : "application/json",
+        "size" : 243
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /wd/hub/session/f8dc345b-6cb1-467e-91e5-84c3d0e31113/element/a14e88d3-df32-4568-88d4-4195a353621f/click",
+      "time" : {
+        "start" : 1582907742959,
+        "stop" : 1582907743011,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "85d88ac00b54b35e",
+        "name" : "Response",
+        "source" : "85d88ac00b54b35e.json",
+        "type" : "application/json",
+        "size" : 95
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "To test the Electre application"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "story",
+    "value" : "Electre application"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the Electre application Electre application"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the Electre application Electre application"
+  }, {
+    "name" : "testMethod",
+    "value" : "I click on menu button"
+  }, {
+    "name" : "package",
+    "value" : "To test the Electre application Electre application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "myemulator-5.1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c6992171f9777415.json",
+  "parameterValues" : [ "myemulator-5.1" ]
+}

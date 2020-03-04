@@ -1,0 +1,7 @@
+[ {
+  "values" : [ "{\"appiumVersion\":\"1.16.0\",\"browserName\":\"\",\"platformName\":\"Android\",\"appPackage\":\"com.android.calculator2\",\"appActivity\":\"com.android.calculator2.Calculator\",\"adbExecTimeout\":20000,\"platformVersion\":\"5.1\",\"deviceName\":\"holala\",\"waitforTimeout\":20000,\"commandTimeout\":20000,\"newCommandTimeout\":1800000,\"appWaitDuration\":20000,\"automationName\":\"UiAutomator2\",\"clearSystemFiles\":true}" ],
+  "name" : "capabilities"
+}, {
+  "values" : [ "[\"/projet/QA_mobile/features/calculator.feature\"]" ],
+  "name" : "spec files"
+} ]
